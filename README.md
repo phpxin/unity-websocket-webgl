@@ -1,16 +1,8 @@
 # unity-websocket-webgl
 
-## Maintainers Wanted
-
-I've created this library as a Hobby project when I was experimenting with Unity. I haven't used Unity for over 2 years and I'm not able to maintain the repo. If you want to become a maintainer a keep this project running, send me an e-mail or create an issue. Thank you for understanding.
-
----
-
 Hybrid event-driven WebSocket implementation for Unity 3D.
 
 It automatically compiles browser or native implementation based on project's target platform. Native implementation is using [WebSocketSharp](https://github.com/sta/websocket-sharp) library (must be downloaded separately - see below). For the browser implementation the custom emscripten JSLIB is used.
-
-**Warning:** WebSocket client is intended to support only binary messages. So if you want to send or receive string messages you must convert it to/from byte array in your code.
 
 ## Downloading WebSocketSharp
 
